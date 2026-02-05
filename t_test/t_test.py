@@ -1,3 +1,5 @@
+#t testiga arvutatakse aritmeetilist keskmist
+
 from scipy.stats import ttest_ind
 print(ttest_ind([3, 5, 4], [12, 16, 14]))
 
